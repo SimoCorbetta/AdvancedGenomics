@@ -22,4 +22,5 @@ Workflow
 16) Analysis of the results using Entropy as a measure of cluster homogeneity
 17)Hierarchical clustering with the Genie module on IDF vectors
 18) Analysis of the results using Entropy as a measure of cluster homogeneity
+
 All data is retrieved from paper "Louca, S., Doebeli, M. & Parfrey, L.W. Correcting for 16S rRNA gene copy numbers in microbiome surveys remains an unsolved problem. Microbiome 6, 41 (2018). https://doi.org/10.1186/s40168-018-0420-9 '
