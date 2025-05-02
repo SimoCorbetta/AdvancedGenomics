@@ -3,7 +3,9 @@ It contains the project for the Advanced Genomics Course.
 The 16S ribosomal RNA gene is the most widely used marker gene in microbial ecology. Counts of 16S sequence variants are used to estimate proportions of bacterial and archaeal taxa in microbial communities.
 Because different organisms contain different 16S gene copy numbers (GCNs), sequence variant counts are biased towards clades with greater GCNs. Several tools have recently been developed for predicting GCNs using phylogenetic methods and based on sequenced genomes, in order to correct for this bias. 16S GCNs could only be accurately predicted for a limited fraction of taxa, namely taxa with closely to moderately related representatives (15% divergence in the 16S rRNA gene)
 The idea is to implement a KNN algorithm for classification to predict the number of copies of 16S based on the similarity of 16S sequences of microorganisms with 16S sequences of microorganisms which have a known number of 16S copies. Before implementing the KNN classifier, it is necessary to cluster the data to see if sequences of the same species cluster together in the same cluster; otherwise it is not possible to implement an accurate 16S copy predictor.
-Workflow
+
+Workflow:
+
 1) Data Retrieving
 2) Data Cleaning
 3) Visual inspection of the data
